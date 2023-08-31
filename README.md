@@ -1,2 +1,2 @@
 # future-logger
-My custom logger
+This is just my custom logger for me.

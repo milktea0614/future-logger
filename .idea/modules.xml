@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/future-logger.iml" filepath="$PROJECT_DIR$/.idea/future-logger.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/miraelogger.iml" filepath="$PROJECT_DIR$/.idea/miraelogger.iml" />
     </modules>
   </component>
 </project>

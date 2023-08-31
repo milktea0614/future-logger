@@ -3,8 +3,11 @@ This is just my custom logger for me.
 
 ---
 
-## You can see my code
+## GitHub Repository Link
 [**mirealogger** GitHub Repository Link](https://github.com/milktea0614/miraelogger)
+
+## PyPI Link
+[miraelogger pypi](https://pypi.org/project/miraelogger/)
 
 ---
 

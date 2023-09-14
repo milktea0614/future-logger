@@ -80,51 +80,11 @@ class Logger:
                     os.remove(_path)
                     self._logger.debug(f"Delete Old log: {_path}")
 
-    def debug(self, msg):
-        """Debug log.
+    @property
+    def logger(self):
+        """Get logger.
 
-        :param str msg: Log message.
+        :return: logger.
+        :rtype: logger.
         """
-        self._logger.debug(msg)
-
-    def info(self, msg):
-        """Info log.
-
-        :param str msg: Log message.
-        """
-        self._logger.info(msg)
-
-    def warn(self, msg):
-        """Warning log.
-
-        :param str msg: Log message.
-        """
-        self._logger.warning(msg)
-
-    def error(self, msg):
-        """Error log.
-
-        :param str msg: Log message.
-        """
-        self._logger.error(msg)
-
-    def exception(self, msg):
-        """Exception log.
-
-        :param str msg: Log message.
-        """
-        self._logger.exception(msg)
-
-    def critical(self, msg):
-        """Critical log.
-
-        :param str msg: Log message.
-        """
-        self._logger.critical(msg)
-
-    def fatal(self, msg):
-        """Fatal log.
-
-        :param str msg: Log message.
-        """
-        self._logger.fatal(msg)
+        return self._logger

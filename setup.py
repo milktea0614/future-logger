@@ -5,7 +5,7 @@ with open('README.md', encoding='utf-8') as _f:
 
 setup(
     name='miraelogger',  # package name
-    version='0.0.2',  # package version
+    version='0.0.3',  # package version
     packages=['miraelogger'],
     url='https://github.com/milktea0614/miraelogger',  # Deploy url (e.g. GitHub repository url)
     license='',
